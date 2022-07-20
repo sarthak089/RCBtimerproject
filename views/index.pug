@@ -1,0 +1,52 @@
+//- index.pug
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    h1 How Long Since Royal challengers Bangalore Last Won AN IPL Trophy?
+    div.containerlogo
+      p.headtext Royal Challengers Bangalore (often abbreviated as RCB) is a franchise cricket team based in Bangalore, Karnataka, that plays in the Indian Premier League (IPL) The team holds the records of both the highest and the lowest totals in the IPL – 263/5 and 49 respectively.
+      div.flexlogo 
+         img(src="../static/image/rcbicon.jpg", alt="", width="170px")
+      div.container
+        div.flexitem
+         p#rcbyr.text
+         p.text2 Years   
+        div.flexitem
+         p#rcbmonth.text
+         p.text2 Months
+        div.flexitem
+         p#rcbday.text
+         p.text2 Days  
+        div.flexitem
+         p#rcbhour.text
+         p.text2 Hours
+        div.flexitem
+         p#rcbmin.text
+         p.text2 Minutes 
+        div.flexitem
+         p#rcbsec.text
+         p.text2 Seconds 
+      p.headtext 18th April 2008, Royal Challengers Bangalore played there first ever match in IPL.   
+    footer 
+      h3 About developer
+      div.footer
+        div.footerimg 
+          img(src="../static/image/footerimg.jpeg", alt="" width="70px")
+        p.footertext Sarthak Sharma
+        div.ficoncontainer 
+          div.ficon
+            a(href="https://instagram.com/zarthac__?igshid=YmMyMTA2M2Y=" target="_blank")
+              img(src="../static/image/insta.jpg", alt="", width="30px")
+          div.ficon    
+            a(href="https://www.linkedin.com/in/sarthak-sharma-88616b241" target="_blank")
+              img(src="../static/image/link.png", alt="", width="30px") 
+          div.ficon       
+            a(href="https://twitter.com/Zarthac8?t=1iW1Ybs1V9yHHjfZ5AGnmg&s=08" target="_blank")
+              img(src="../static/image/twitter.png", alt="", width="30px")  
+
+    
+    script
+      include ../static/index.js

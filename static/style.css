@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.flexitem{
+    border: 1px solid black;
+    border-radius: 5px;
+    font-weight:bold ;
+    margin: 10px;
+    padding-top: 20px;
+    width: 60px;
+    height: 60px;
+    text-align: center; 
+    background-color: white;
+}
+
+.text{
+    font-size: 1.5rem;
+    color: rgb(204, 16, 16);
+}
+
+.text2{
+    font-size: small;
+    color: black;
+}
+h1{
+    text-align: center;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    padding: 12px;
+}
+.containerlogo{
+   
+    
+    background-color: rgb(141, 0, 0);
+}
+.flexlogo{
+    text-align: center;
+} 
+img{
+    margin: 10px;
+    border-radius: 5px;
+}
+.headtext{
+    color: white;
+    padding: 10px; 
+    text-align: center;
+    font-size: small;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+footer{
+    height: 180px;
+    background-color:grey ;
+    color:white;
+}
+
+h3{
+    text-align: center;
+    padding-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.footerimg{
+    text-align: center;
+}
+.footerimg img{ 
+    border-radius: 50px;
+    margin: 0;
+    padding-top: 10px;
+}
+
+.footertext{
+    text-align: center;
+    font-size: smaller;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ficoncontainer{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
