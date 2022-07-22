@@ -6,8 +6,7 @@ function timestamp() {
     
      finalyr = (document.getElementById("rcbyr").innerHTML =
       fd.year);
-     finalmonth = (document.getElementById("rcbmonth").innerHTML =
-      fd.month);
+     
      finalday = (document.getElementById("rcbday").innerHTML =
       fd.day);
      finalhour = (document.getElementById("rcbhour").innerHTML =
@@ -25,6 +24,7 @@ function timestamp() {
     let year, month, day, hour, minute, second;
     
 
+    
     second = Math.floor(t / 1000);
     minute = Math.floor(second / 60);
     second = second % 60;
@@ -37,5 +37,5 @@ function timestamp() {
     year = Math.floor(month / 12);
     month = month % 12;
 
-    return { year, month, day, hour, minute, second };
+    return { year, /*month,*/ day, hour, minute, second };
   }
